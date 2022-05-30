@@ -8,4 +8,4 @@ page = requests.get(url).text
 def get_filename(url):
     soup = BeautifulSoup(page, 'html.parser')
     result = [url + '/' + node.get('href') for node in soup.find_all('a')]
-    return result
+    return result[10]

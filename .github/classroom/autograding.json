@@ -11,7 +11,7 @@
       "points": null
     },
     {
-      "name": "run&#45;tests",
+      "name": "run tests",
       "setup": "sudo -H pip3 install pytest",
       "run": "pytest",
       "input": "",
